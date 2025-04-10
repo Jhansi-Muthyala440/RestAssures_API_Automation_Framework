@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredAPI">
+    <test name="Testing_how_to_handle_alerts">
+        <classes>
+            <class name="com.RestAPI.qa.tests.crud.testCreateBookingPost">
+                <methods>
+                    <include name="testVerifyCreateBookingPost01"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
